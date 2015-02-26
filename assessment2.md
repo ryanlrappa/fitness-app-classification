@@ -1,8 +1,6 @@
+### PersonaGraph Text Classification Case Study (60 minutes)
 
-
-### 5. PersonaGraph Text Classification Case Study (60 minutes)
-
-This is a challenge from Mike Tamir of [PersonaGraph](http://www.personagraph.com/). They use this challenge for prospective hires to test their abilities.
+This is a challenge from [PersonaGraph](http://www.personagraph.com/). They use this challenge for prospective hires to test their abilities.
 
 The data can be found on the TimeCapsule in the `datasets/challenges/personagraph` folder.
 
