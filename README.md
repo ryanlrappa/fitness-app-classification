@@ -1,7 +1,4 @@
-# Zipfian Final Assessment
 
-
-<br />
 
 ## Part II
 
