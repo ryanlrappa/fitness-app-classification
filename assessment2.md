@@ -2,7 +2,7 @@
 
 This is a challenge from [PersonaGraph](http://www.personagraph.com/). They use this challenge for prospective hires to test their abilities.
 
-The data can be found on the TimeCapsule in the `datasets/challenges/personagraph` folder.
+The data can be found in the `data/` folder.
 
 * `train.txt` contains 2820 text descriptions of Android apps
 * `labels.txt` contains a corresponding list of label data (ones and zeros indicating if they are fitness apps or not). Note that the first half are all positive cases (1) and the second half are all negative (0).
