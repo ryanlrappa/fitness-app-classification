@@ -9,7 +9,7 @@ The data can be found in the `data/` folder.
 
 Your task is to build a model to classify the data. You should use whatever libraries you find helpful (sklearn, nltk, etc.)
 
-You should submit two files:
+You should submit two files located in the `submissions/` folder:
 
 * `personagraph.py` containing your code
 * `personagraph.txt` (or markdown if you prefer) containing your analysis
