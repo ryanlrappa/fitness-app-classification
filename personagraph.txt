@@ -1,0 +1,18 @@
+1. What models and featurization techniques (stemming vs lemming, tf-idf vs bag of words, etc.) did you compare?
+
+Featurization approach: I went straight to tf-idf
+for the reasons outlined here: https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+and here: https://stats.stackexchange.com/questions/153069/bag-of-words-for-text-classification-why-not-just-use-word-frequencies-instead
+
+Stemming and/or lemmatization: I have yet to try them. Got good results (92% accuracy) without applying either.
+
+Models: I compared Naive Bayes, Bernoulli Naive Bayes, SVM optimized with SGD, XGBoost, and Linear SVC. SVM/SVC performing best.
+
+2. What validation and testing methodology did you use?
+
+Used 67/33 train-test split. Trained on the train set and checked accuracy on the test set for each model.
+
+3. Which model did you choose and why?
+
+SVM classifier optimized with stochastic gradient descent (SGD), because it appears to have a slight edge on accuracy and TPR.
+Linear SVC may be just as good; looks like it achieved slightly better precision and FPR.
