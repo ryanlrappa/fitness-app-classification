@@ -13,7 +13,7 @@ The task is to build a model to classify the data.
 **Files:**
 
 * `personagraph.ipynb` trying out different models
-* `personagraph.py` containing my code --> class to train final model and make predictions
+* `personagraph.py` class with methods to train final model and make predictions
 * `confusion_matrix.py` class to print confusion matrices and accuracy, precision, recall, fallout
 * `personagraph.txt` containing my analysis of the approach/results from personagraph.ipynb
 
