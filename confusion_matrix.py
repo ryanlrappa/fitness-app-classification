@@ -15,7 +15,7 @@ class ConfusionMatrix:
 
     Usage
     --------
-    1. instantiate the class, passing in
+    1. instantiate class object, passing in
     y_pred, y_test, and model
     2. use the plot_confusion_matrix and show_data 
     methods on the class object
@@ -26,7 +26,7 @@ class ConfusionMatrix:
         self.y_pred = y_pred
         self.model = model
         self.cm = confusion_matrix(y_test, y_pred)
-        if model.classes_[0] == 1:
+        if model.classes_[0] == 1:  #in case the labels are flipped from the usual indices
             self.cm = np.array([[self.cm[1,1], self.cm[1,0]], [self.cm[0,1], self.cm[0,0]]])
 
     def plot_confusion_matrix(self, classes=['0', '1'],
@@ -39,11 +39,10 @@ class ConfusionMatrix:
         
         Args
         --------
-        cm: confusion matrix
-        classes: ['0', '1'] by default, can be changed as desired (list of 2 strings)
+        classes: ['0', '1'] by default, can be changed as desired (use list of 2 strings)
         title_on: set this to True to print title arg as title
-        title: string to be used as plot title
-        cmap: plot color palatte
+        title: string to be used as plot title, if previous arg set to True
+        cmap: plot color palette
 
         '''
 
